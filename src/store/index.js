@@ -6,7 +6,7 @@ import rootReducer from './modules/rootReducer';
 import rootSaga from './modules/rootSaga';
 
 
-const sagaMonitor = process.env.NODE_ENV === 'development'
+const sagaMonitor = __DEV__
   ? console.tron.createSagaMonitor()
   : null;
 
