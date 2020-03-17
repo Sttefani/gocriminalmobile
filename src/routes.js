@@ -2,10 +2,9 @@ import React from 'react';
 import {
   createAppContainer,
   createSwitchNavigator,
+  createBottomTabNavigator,
+  createStackNavigator
 } from 'react-navigation';
-import { createBottomTabNavigator } from 'react-navigation-tabs';
-import {createStackNavigator} from 'react-navigation/stack';
-
 import SelectProvider from './pages/New/SelectProvider';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import SignIn from './pages/SignIn';
